@@ -55,7 +55,7 @@ jobs:
 
           df -h
 
-      # # 同步最新源码
+      # # 同步最新源码 - 有问题
       # - name: Update Latest Sourse Codes
       #   run: |
       #     git remote add openwrt https://github.com/coolsnowwolf/lede.git
