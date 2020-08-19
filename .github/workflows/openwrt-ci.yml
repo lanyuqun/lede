@@ -55,7 +55,7 @@ jobs:
 
           df -h
 
-      # # 同步最新源码 - 有问题
+      # # 同步最新源码
       # - name: Update Latest Sourse Codes
       #   run: |
       #     git remote add openwrt https://github.com/coolsnowwolf/lede.git
@@ -180,21 +180,21 @@ jobs:
           CONFIG_PACKAGE_luci-app-webadmin=y
           # CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
-          # Myself
-          CONFIG_PACKAGE_luci-app-autoreboot=y
-          CONFIG_PACKAGE_luci-app-filetransfer=y
-          CONFIG_PACKAGE_luci-app-flowoffload=y
+          # # Myself
+          # CONFIG_PACKAGE_luci-app-autoreboot=y
+          # CONFIG_PACKAGE_luci-app-filetransfer=y
+          # CONFIG_PACKAGE_luci-app-flowoffload=y
           CONFIG_PACKAGE_luci-app-mwan3helper=y
           CONFIG_PACKAGE_luci-app-mwan3=y
           CONFIG_PACKAGE_luci-app-syncdial=y
-          CONFIG_PACKAGE_luci-app-nlbwmon=y
-          CONFIG_PACKAGE_luci-app-sqm=y
-          CONFIG_PACKAGE_luci-app-unblockmusic=y
-          CONFIG_PACKAGE_luci-app-upnp=y
-          CONFIG_PACKAGE_luci-app-vsftpd=y
-          CONFIG_PACKAGE_luci-app-wol=y
-          CONFIG_PACKAGE_luci-app-ramfree=y
-          CONFIG_PACKAGE_luci-app-zerotier=y
+          # CONFIG_PACKAGE_luci-app-nlbwmon=y
+          # CONFIG_PACKAGE_luci-app-sqm=y
+          # CONFIG_PACKAGE_luci-app-unblockmusic=y
+          # CONFIG_PACKAGE_luci-app-upnp=y
+          # CONFIG_PACKAGE_luci-app-vsftpd=y
+          # CONFIG_PACKAGE_luci-app-wol=y
+          # CONFIG_PACKAGE_luci-app-ramfree=y
+          # CONFIG_PACKAGE_luci-app-zerotier=y
           EOF
 
           # LuCI主题:
