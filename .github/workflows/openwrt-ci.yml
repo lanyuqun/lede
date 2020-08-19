@@ -55,12 +55,12 @@ jobs:
 
           df -h
 
-      # 同步最新源码
-      - name: Update Latest Sourse Codes
-        run: |
-          git remote add openwrt https://github.com/coolsnowwolf/lede.git
-          git pull openwrt master
-          git remote -v
+      # # 同步最新源码
+      # - name: Update Latest Sourse Codes
+      #   run: |
+      #     git remote add openwrt https://github.com/coolsnowwolf/lede.git
+      #     git pull openwrt master
+      #     git remote -v
 
       # 新加插件
       - name: Add Plugin
