@@ -72,7 +72,6 @@ jobs:
           # git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
           git clone https://github.com/rosywrt/luci-theme-rosy.git
           git clone https://github.com/vernesong/OpenClash.git
-          git clone https://github.com/zhaojh329/eqos.git
 
       - name: Update feeds
         run: |
@@ -198,11 +197,11 @@ jobs:
           CONFIG_PACKAGE_luci-app-ramfree=y
           CONFIG_PACKAGE_luci-app-zerotier=y
           CONFIG_PACKAGE_luci-app-openclash=y
-          CONFIG_PACKAGE_luci-app-eqos=y
           CONFIG_PACKAGE_luci-app-p910nd=y
           CONFIG_PACKAGE_luci-app-usb-printer=y
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           CONFIG_PACKAGE_luci-app-hd-idle=y
+          CONFIG_PACKAGE_luci-app-nft-qos=y
           EOF
 
           # LuCI主题:
