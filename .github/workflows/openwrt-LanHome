@@ -12,11 +12,11 @@ name: OpenWrt-LanHome
 on:
   push:
     branches: 
-      - master
-    schedule:
-      - cron: 0 4 1 * *
-    release:
-      types: [published]
+      - op-home
+  schedule:
+    - cron: 0 4 1 * *
+  release:
+    types: [published]
 
 jobs:
 
