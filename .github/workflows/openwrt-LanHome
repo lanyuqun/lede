@@ -14,7 +14,7 @@ on:
     branches: 
       - op-home
   schedule:
-    - cron: 0 4 1 * *
+    - cron: 41 0 * * *
   release:
     types: [published]
   workflow_dispatch:
