@@ -1,7 +1,6 @@
-欢迎来到Lean的Openwrt源码仓库！
+Thanks to Lean and KFERMercer！
 =
-Welcome to Lean's  git source of OpenWrt and packages
-=
+
 中文：如何编译自己需要的 OpenWrt 固件
 -
 注意：
@@ -9,6 +8,8 @@ Welcome to Lean's  git source of OpenWrt and packages
 1. **不**要用 **root** 用户 git 和编译！！！
 2. 国内用户编译前最好准备好梯子
 3. 默认登陆IP 192.168.1.1, 密码 password
+4. https://github.com/coolsnowwolf/lede
+　 https://github.com/KFERMercer/OpenWrt-CI
 
 编译命令如下:
 -
@@ -34,7 +35,7 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 
 本套代码保证肯定可以编译成功。里面包括了 R20 所有源代码，包括 IPK 的。
 
-你可以自由使用，但源码编译二次发布请注明我的 GitHub 仓库链接。谢谢合作！
+你可以自由使用，但源码编译二次发布请注明我(Lean)的 GitHub 仓库链接。谢谢合作！
 =
 
 二次编译：
@@ -65,24 +66,6 @@ make -j$(($(nproc) + 1)) V=s
 3.想学习OpenWrt开发，但是摸不着门道？自学没毅力？基础太差？怕太难学不会？跟着佐大学OpenWrt开发入门培训班助你能学有所成
 报名地址：[点击报名](http://forgotfun.org/2018/04/openwrt-training-2018.html "报名")
 
-## 软路由介绍
-友情推荐不恰饭：如果你在寻找一个低功耗小体积性能不错的 x86/x64 路由器，我个人建议可以考虑 
-小马v1 的铝合金版本 (N3710 4千兆)：[页面介绍](https://item.taobao.com/item.htm?spm=a230r.1.14.20.144c763fRkK0VZ&id=561126544764 " 小马v1 的铝合金版本")
-
-![xm1](doc/xm5.jpg)
-![xm2](doc/xm6.jpg)
-
-## Donate
-
-如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善
-
-### Alipay 支付宝
-
-![alipay](doc/alipay_donate.jpg)
-
-### Wechat 微信
-
-![wechat](doc/wechat_donate.jpg)
 
 ------
 
@@ -131,3 +114,4 @@ the lack of case sensitiveness in the file system.
 ## Note: Addition Lean's private package source code in `./package/lean` directory. Use it under GPL v3.
 
 ## GPLv3 is compatible with more licenses than GPLv2: it allows you to make combinations with code that has specific kinds of additional requirements that are not in GPLv3 itself. Section 7 has more information about this, including the list of additional requirements that are permitted.
+
