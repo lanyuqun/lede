@@ -17,6 +17,7 @@ on:
     - cron: 0 4 1 * *
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
 
